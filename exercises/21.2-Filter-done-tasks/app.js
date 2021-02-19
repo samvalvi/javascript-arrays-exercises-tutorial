@@ -10,3 +10,10 @@ let tasks = [
 ];
 
 //your code here
+const deleteTask = (arr) => {
+    let newTasks = arr.filter(task => task.done === true);
+
+    return newTasks;
+}
+
+console.log(deleteTask(tasks));
