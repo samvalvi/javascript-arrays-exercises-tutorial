@@ -2,5 +2,11 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
+let arrayPar = Array.from(par);
+
+for(let i = 0; i < arrayPar.length; i++){
+    let element = arrayPar.filter(ele => ele === arrayPar[i]).length;
+        counts[arrayPar[i]] = element;
+}
 
 console.log(counts);
