@@ -9,11 +9,13 @@ let allColors = [
 ];
 
 function generateLI(color){
-	// your code here
+    // your code here
+    
 }
 
 function filterColors(color){
-	// your code here
+    // your code here
+    
 }
 
 function generateHTMLFromArray(array){
