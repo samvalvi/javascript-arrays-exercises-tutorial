@@ -14,7 +14,7 @@ const lyricsGenerator = arr => {
         }
     }
 
-    return lyric.toString();
+    return lyric;
 }
 
 // test Data
