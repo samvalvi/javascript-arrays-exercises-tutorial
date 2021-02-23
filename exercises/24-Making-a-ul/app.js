@@ -10,12 +10,14 @@ let allColors = [
 
 function generateLI(color){
     // your code here
-    
+    return `<li>${color.label}</li>`
 }
 
 function filterColors(color){
     // your code here
-    
+	//This is a short 'if'. If the answer is true the result is asigned to 'colorSexy' variable.
+	let colorSexy = (color.sexy === true)? color.label : null;
+	return colorSexy;
 }
 
 function generateHTMLFromArray(array){
