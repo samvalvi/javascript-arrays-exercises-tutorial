@@ -2,10 +2,10 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 
 //declare your function here
 
-const filteringList = (arr, searchValue) => {
+const filterByName = (arr, searchValue) => {
     let values = arr.filter(name => name.toLowerCase().includes(searchValue.toLowerCase()));
 
     return values;
 }
 
-console.log(filteringList(names, 'am'));
+console.log(filterByName(names, 'am'));
