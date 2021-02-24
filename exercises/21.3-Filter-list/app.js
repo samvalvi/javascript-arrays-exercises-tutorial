@@ -3,9 +3,9 @@ let names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','L
 //declare your function here
 
 const filterByName = (arr, searchValue) => {
-    let values = arr.filter(name => name.toLowerCase().includes(searchValue.toLowerCase()));
+    let values = arr.filter(name => name.toLowerCase().includes(searchValue));
 
     return values;
-}
+};
 
 console.log(filterByName(names, 'am'));
